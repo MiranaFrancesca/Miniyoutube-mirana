@@ -1,0 +1,173 @@
+/* header theme clair */
+
+/* bandeau principal */
+.yt-header {
+    position: sticky;
+    /* reste collé en haut quand on scroll */
+    top: 0;
+    z-index: 30;
+
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 0.5rem 1rem;
+
+    background: #ffffff;
+    /* fond blanc */
+    border-bottom: 1px solid #e5e5e5;
+
+    /* pas de blur en thème clair */
+    backdrop-filter: none;
+}
+
+
+/* logo minitube */
+
+.yt-header__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    /* évite le soulignement sur le <NavLink> */
+    color: #0f0f0f;
+}
+
+/* affiche mon PNG */
+.yt-header__logo-icon {
+    display: block;
+    width: 32px;
+    /* taille du logo */
+    height: 32px;
+    object-fit: contain;
+    /* garde les proportions du PNG */
+}
+
+/* texte miniTube */
+.yt-header__logo-text {
+    display: none;
+    /* masqué en mobile */
+}
+
+@media (min-width: 640px) {
+    .yt-header__logo-text {
+        display: inline;
+        color: #0f0f0f;
+    }
+}
+
+
+/* barre de recherche */
+
+.yt-header__search {
+    flex: 1;
+    display: flex;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+/* input clair */
+.yt-header__search-input {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+
+    border-radius: 9999px 0 0 9999px;
+    border: 1px solid #d6d6d6;
+
+    background: #f8f8f8;
+    color: #0f0f0f;
+
+    font-size: 0.875rem;
+    outline: none;
+}
+
+.yt-header__search-input::placeholder {
+    color: #9f9f9f;
+    /* placeholder gris */
+}
+
+/* focus bleu YouTube */
+.yt-header__search-input:focus {
+    border-color: #3b82f6;
+    background: #ffffff;
+}
+
+/* bouton de recherche loupe*/
+.yt-header__search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.5rem 0.9rem;
+    border-radius: 0 9999px 9999px 0;
+
+    border: 1px solid #d6d6d6;
+    border-left: none;
+
+    background: #f2f2f2;
+    cursor: pointer;
+}
+
+.yt-header__search-button-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.yt-header__search-button:hover {
+    background: #e5e5e5;
+}
+
+
+/* icone droit du header */
+
+.yt-header__right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* boutons icones créer cloche */
+.yt-header__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9999px;
+    padding: 0.35rem 0.6rem;
+
+    background: transparent;
+    border: 1px solid transparent;
+
+    cursor: pointer;
+}
+
+.yt-header__icon:hover {
+    background: #f2f2f2;
+    border-color: #e5e5e5;
+}
+
+
+/* avatar utilisateur mon M */
+
+.yt-header__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 9999px;
+
+    background: #d90f0f;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.yt-header__icon-img {
+    width: 20px;
+    height: 20px;
+}

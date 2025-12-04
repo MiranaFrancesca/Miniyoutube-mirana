@@ -1,0 +1,49 @@
+/* conteneur short */
+
+.shorts-scroll-container {
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* centre chaque shortcard */
+
+    scroll-snap-type: y mandatory;
+
+    padding: 1.5rem 0;
+    background: #ffffff;
+}
+
+
+/* bloc 1 short dans la page */
+
+.short-item {
+    width: 100%;
+    max-width: 1100px;
+    /* largeur max de la zone centrale */
+    margin: 0 auto;
+    /* centre le bloc */
+
+    scroll-snap-align: start;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+
+
+/* responsive ecran etroit */
+
+@media (max-width: 900px) {
+    .short-item {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1.5rem;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,53 @@
+/* page playlist */
+
+.playlist-page {
+    flex: 1;
+    min-height: calc(100vh - 56px);
+    background: #f9f9f9;
+
+    /* marge adaptée */
+    padding: 32px 48px 48px;
+}
+
+/* titre Playlist de  */
+.playlist-title {
+    font-size: 1.8rem;
+
+    font-weight: 600;
+    color: #0f0f0f;
+
+    margin-bottom: 24px;
+    /* espace entre titre et 1 bloc */
+}
+
+/* texte info erreur */
+.playlist-message {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+/* message quand la playlist est vide */
+.playlist-message--empty {
+    margin-top: 4px;
+}
+
+/* message quand l’utilisateur n’est pas connecté */
+.playlist-message--info {
+    margin-top: 8px;
+}
+
+/* conteneur de la grille de vidéos */
+.playlist-grid-wrapper {
+    margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+    .playlist-page {
+        padding: 24px 16px 32px;
+    }
+
+    .playlist-title {
+        font-size: 1.4rem;
+        margin-bottom: 16px;
+    }
+}

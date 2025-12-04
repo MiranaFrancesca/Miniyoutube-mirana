@@ -1,0 +1,152 @@
+[
+    {
+        "id": "s1",
+        "title": "My happy cat",
+        "channel": "Kitty Cat",
+        "views": "782 k vues",
+        "publishedAt": "il y a 3 ans",
+        "duration": "00:00:24",
+        "thumbnail": "/shorts/short1.jpg",
+        "videoUrl": "/shorts/short1.mp4"
+    },
+    {
+        "id": "s2",
+        "title": "Afternoon at home",
+        "channel": "Zen and cocooning",
+        "views": "695 k vues",
+        "publishedAt": "il y a 2 ans",
+        "duration": "00:00:24",
+        "thumbnail": "/shorts/short2.jpg",
+        "videoUrl": "/shorts/short2.mp4"
+    },
+    {
+        "id": "s3",
+        "title": "City by night",
+        "channel": "Denver-tv",
+        "views": "433 k vues",
+        "publishedAt": "il y a 3 ans",
+        "duration": "00:00:15",
+        "thumbnail": "/shorts/short3.jpg",
+        "videoUrl": "/shorts/short3.mp4"
+    },
+    {
+        "id": "s4",
+        "title": "ASM in the air ",
+        "channel": "ASMR Radio",
+        "views": "583 k vues",
+        "publishedAt": "il y a 4 ans",
+        "duration": "00:00:32",
+        "thumbnail": "/shorts/short4.jpg",
+        "videoUrl": "/shorts/short4.mp4"
+    },
+    {
+        "id": "s5",
+        "title": "Outdoor gardening",
+        "channel": "Green-Garden",
+        "views": "465 k vues",
+        "publishedAt": "il y a 2 ans",
+        "duration": "00:00:27",
+        "thumbnail": "/shorts/short5.jpg",
+        "videoUrl": "/shorts/short5.mp4"
+    },
+    {
+        "id": "s6",
+        "title": "Curly hair care (advertising)",
+        "channel": "Hairstyles mag",
+        "views": "621 k vues",
+        "publishedAt": "il y a 3 ans",
+        "duration": "00:00:11",
+        "thumbnail": "/shorts/short6.jpg",
+        "videoUrl": "/shorts/short6.mp4"
+    },
+    {
+        "id": "s7",
+        "title": "how to prepare a grog for winter",
+        "channel": "Grandma's recipe",
+        "views": "724 k vues",
+        "publishedAt": "il y a 3 ans",
+        "duration": "00:00:23",
+        "thumbnail": "/shorts/short7.jpg",
+        "videoUrl": "/shorts/short7.mp4"
+    },
+    {
+        "id": "s8",
+        "title": "Lazy dog",
+        "channel": "Papeete comedy club",
+        "views": "901 k vues",
+        "publishedAt": "il y a 4 ans",
+        "duration": "00:00:16",
+        "thumbnail": "/shorts/short8.jpg",
+        "videoUrl": "/shorts/short8.mp4"
+    },
+    {
+        "id": "s9",
+        "title": "Shy boy",
+        "channel": "Kids.tv",
+        "views": "433 k vues",
+        "publishedAt": "il y a 6 ans",
+        "duration": "00:00:10",
+        "thumbnail": "/shorts/short9.jpg",
+        "videoUrl": "/shorts/short9.mp4"
+    },
+    {
+        "id": "s10",
+        "title": "Two and a half men",
+        "channel": "B&B Series",
+        "views": "1,1 m vues",
+        "publishedAt": "il y a 9 ans",
+        "duration": "00:00:13",
+        "thumbnail": "/shorts/short10.jpg",
+        "videoUrl": "/shorts/short10.mp4"
+    },
+    {
+        "id": "s11",
+        "title": "Modern Family",
+        "channel": "B&B Series",
+        "views": "1,2 m vues",
+        "publishedAt": "il y a 8 ans",
+        "duration": "00:00:10",
+        "thumbnail": "/shorts/short11.jpg",
+        "videoUrl": "/shorts/short11.mp4"
+    },
+    {
+        "id": "s12",
+        "title": "Tuto make-up",
+        "channel": "Make-up for ever",
+        "views": "852 k vues",
+        "publishedAt": "il y a 6 ans",
+        "duration": "00:00:37",
+        "thumbnail": "/shorts/short12.jpg",
+        "videoUrl": "/shorts/short12.mp4"
+    },
+    {
+        "id": "s13",
+        "title": "Breast Cancer Awareness Month Event",
+        "channel": "League Against Cancer",
+        "views": "952 k vues",
+        "publishedAt": "il y a 7 ans",
+        "duration": "00:00:13",
+        "thumbnail": "/shorts/short13.jpg",
+        "videoUrl": "/shorts/short13.mp4"
+    },
+    {
+        "id": "s14",
+        "title": "The Gen-Z",
+        "channel": "Millenial TV",
+        "views": "695 k vues",
+        "publishedAt": "il y a 5 ans",
+        "duration": "00:00:03",
+        "thumbnail": "/shorts/short14.jpg",
+        "videoUrl": "/shorts/short14.mp4"
+    },
+    {
+        "id": "s15",
+        "title": "24 hours in Chinatown",
+        "channel": "China_TV",
+        "views": "674 k vues",
+        "publishedAt": "il y a 4 ans",
+        "duration": "00:00:31",
+        "thumbnail": "/shorts/short15.jpg",
+        "videoUrl": "/shorts/short15.mp4"
+    }
+]

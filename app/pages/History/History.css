@@ -1,0 +1,194 @@
+/* page historique */
+
+.history-page {
+    min-height: calc(100vh - 56px);
+    padding: 1.5rem 2rem 2rem;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.history-inner {
+    width: 100%;
+    max-width: 1100px;
+}
+
+/* titre principal */
+.history-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* filtre*/
+
+.history-header {
+    margin-bottom: 1.5rem;
+}
+
+/* barre de filtre comme ma home */
+.history-filters {
+    display: flex;
+    gap: 12px;
+    padding: 12px 0;
+    margin-top: 4px;
+
+    overflow-x: auto;
+    scrollbar-width: none;
+    /* firefox */
+}
+
+.history-filters::-webkit-scrollbar {
+    display: none;
+    /* chrome / edge */
+}
+
+/* boutons style */
+.history-filter {
+    background: #f1f1f1;
+    color: #0f0f0f;
+
+    padding: 6px 14px;
+    font-size: 0.95rem;
+    font-weight: 500;
+
+    border-radius: 12px;
+    border: 1px solid #e5e5e5;
+
+    cursor: pointer;
+    white-space: nowrap;
+
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.history-filter:hover {
+    background: #dddddd;
+    border-color: #cccccc;
+}
+
+.history-filter--active {
+    background: #0f0f0f;
+    color: #ffffff;
+    border-color: #0f0f0f;
+}
+
+/* section liste */
+
+.history-section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    width: 100%;
+}
+
+/* chaque entrée de l’historique */
+.history-item {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e5e5;
+    transition: background 0.15s;
+}
+
+.history-item:hover {
+    background: #f2f2f2;
+}
+
+/* miniature vidéo */
+
+.history-thumb-wrapper {
+    position: relative;
+    width: 240px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    background: #18181b;
+}
+
+.history-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* pastille de durée */
+.history-duration,
+.history-thumb-duration {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    padding: 2px 6px;
+    background: rgba(0, 0, 0, 0.85);
+    font-size: 0.75rem;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* info à droite */
+
+.history-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.history-video-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0f0f0f;
+}
+
+.history-video-title:hover {
+    text-decoration: underline;
+}
+
+.history-channel {
+    font-size: 0.9rem;
+    color: #606060;
+}
+
+.history-meta {
+    font-size: 0.85rem;
+    color: #606060;
+}
+
+/* aucun historique */
+
+.history-empty {
+    margin-top: 1rem;
+    color: #70757a;
+    font-size: 0.9rem;
+}
+
+/* short historique */
+
+.history-thumb-wrapper--short {
+    width: 120px;
+    aspect-ratio: 9 / 16;
+}
+
+.history-thumb--short {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.history-badge-short {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    padding: 0.15rem 0.45rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    background: #ffffff;
+    color: #111827;
+}

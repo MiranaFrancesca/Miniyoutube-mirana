@@ -1,0 +1,76 @@
+/* style home */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 16px;
+}
+
+/* barre des filtres */
+.home-filters {
+    display: flex;
+    gap: 12px;
+
+    padding: 12px 0;
+    margin-top: 4px;
+
+    overflow-x: auto;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.home-filters::-webkit-scrollbar {
+    display: none;
+    /* Chrome */
+}
+
+/* bouton filtre carré */
+.home-filter-btn {
+    background: #f1f1f1;
+    color: #0f0f0f;
+
+    padding: 6px 14px;
+    font-size: 0.95rem;
+    font-weight: 500;
+
+    border-radius: 12px;
+    /* carré arrondi */
+    border: 1px solid #e5e5e5;
+
+    cursor: pointer;
+    white-space: nowrap;
+
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.home-filter-btn:hover {
+    background: #dddddd;
+
+    border-color: #cccccc;
+}
+
+
+/* bouton actif */
+.home-filter-btn--active {
+    background: #0f0f0f;
+    color: #ffffff;
+    border-color: #0f0f0f;
+}
+
+/* grille vidéo */
+.home-video-grid {
+    padding-top: 8px;
+}
+
+/* texte résultats pour sous barre de filtres */
+.home-search-result {
+    font-size: 0.9rem;
+    color: #606060;
+}
+
+/* message quand aucune vidéo ne correspond */
+.home-empty {
+    font-size: 0.95rem;
+    color: #606060;
+    margin-top: 0.75rem;
+}
